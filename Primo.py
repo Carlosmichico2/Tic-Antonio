@@ -1,12 +1,9 @@
-def primo ():
-    numero=input ("Say me your number:")
-    primo=True
+def primos ():
+    numero=input ("inserta un numero=")
     for i in range(2,numero):
-	if(numero%i==0):
-            primo=False
-    if(primo==True):
-        print"Es primo"
-    else:
-        print"no es primo"
+        if(numero%i==0):
+            print"Es primo"
+        else:
+            print"no es primo"
 
-primo()
+primos()
